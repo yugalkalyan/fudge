@@ -33,7 +33,12 @@ dependencies:
   google_fonts: ^6.1.0
   flutter_svg: ^2.0.10+1
   fl_chart: ^0.66.2
-  d_chart: ^2.6.7
+  flutter_bloc: ^8.1.4
+  http:
+  fluttertoast: ^8.2.4
+  debit_credit_card_widget: ^1.0.2
+  smooth_page_indicator: ^1.1.0
+  tab_indicator_styler: ^2.0.0
 
 
   # The following adds the Cupertino Icons font to your application.

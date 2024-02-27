@@ -4,13 +4,32 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+# fudge
 
-A few resources to get you started if this is your first Flutter project:
+The guide below will help you build an APK (Android Package) for Android devices. Please note that creating an iOS app requires a developer account with Apple, and this process is not covered here.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Prerequisites:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Before you begin, ensure you have the following installed on your development machine:
+
+Flutter SDK: Install Flutter.
+Android Studio: Set up an Android development environment.
+
+git clone https://github.com/yugalkalyan/fudge.git
+
+open the project in android studio
+
+use the below commands in terminal for making android build:-
+
+1. flutter pub get
+2. flutter build apk
+
+The APK will be in build/app/outputs/flutter-apk/.
+
+Installing the APK:
+
+Transfer the APK file to your Android device or emulator and install it.
+
+Note on iOS App Development:
+
+Building an iOS app requires an Apple developer account. Due to Apple's proprietary nature, iOS development details are not covered here. Refer to the official Flutter documentation and Apple's guidelines for iOS development.
